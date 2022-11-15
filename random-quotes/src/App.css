@@ -1,0 +1,169 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Oxygen', sans-serif;
+}
+.contenedor-pagina {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-quote {
+    background-color: azure;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 42px 32px 32px 32px;
+    border-radius: 5px;
+    border: 1px solid rgb(218, 213, 213);
+    font-size: 32px;
+    font-weight: 500;
+
+}
+#author {
+    text-align: end;
+    font-size: 20px;
+    padding-top:20px;
+    font-weight: 100;
+    font-style: italic;
+}
+#contenedor-boton {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#new-quote {
+    padding: 12px;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.fa-solid.fa-quote-left {
+    margin-right: 5px;
+    
+    }
+
+/*--------- HOVER ---------*/
+
+#new-quote:hover {
+    opacity: 0.75;
+}
+#new-quote:active {
+    opacity: 0.55;
+}
+  
+a .fa-brands.fa-twitter-square:hover {
+    opacity: 0.75;
+}
+a .fa-brands.fa-twitter-square:active {
+    opacity: 0.55;
+}
+
+/*--------- ANIMATION ---------*/
+
+.animation {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;        
+}
+
+/*--------- RANDOM COLORS ---------*/
+
+.color1 {
+    color: rgb(212, 22, 22);
+}
+.bcolor1 {
+   background-color: rgb(212, 22, 22);
+}
+.color2 {
+    color:  rgb(255, 153, 0);
+}
+.bcolor2 {
+    background-color: rgb(255, 153, 0);
+}
+.color3 {
+    color: rgb(134, 132, 0);
+}
+.bcolor3 {
+    background-color: rgb(134, 132, 0);
+}
+.color4 {
+    color: rgb(0, 125, 228);
+}
+.bcolor4 {
+    background-color: rgb(0, 125, 228);
+}
+.color5 {
+    color: rgb(56, 177, 45);
+}
+.bcolor5 {
+    background-color: rgb(56, 177, 45);
+}
+.color6 {
+    color:rgb(54, 161, 111);
+}
+.bcolor6 {
+    background-color: rgb(54, 161, 111);
+}
+.color7 {
+    color: rgb(49, 214, 214);
+}
+.bcolor7 {
+    background-color: rgb(49, 214, 214);
+}
+.color8 {
+    color: rgb(44, 36, 143);
+}
+.bcolor8 {
+    background-color: rgb(44, 36, 143);
+}
+.color9 {
+    color: rgb(123, 68, 212);
+}
+.bcolor9 {
+    background-color: rgb(123, 68, 212);
+}
+.color10 {
+    color: rgb(221, 38, 175);
+}
+.bcolor10 {
+    background-color: rgb(221, 38, 175);
+}
+.color11 {
+    color: rgb(109, 101, 101);
+}
+.bcolor11 {
+    background-color: rgb(109, 101, 101);
+}
+.color12 {
+    color: rgb(5, 5, 5);
+}
+.bcolor12 {
+    background-color: rgb(5, 5, 5);
+}
+.color13 {
+    color: rgb(19, 73, 26);
+}
+.bcolor13 {
+    background-color: rgb(19, 73, 26);
+}
+.color14 {
+    color: rgb(22, 60, 109);
+}
+.bcolor14 {
+    background-color: rgb(22, 60, 109);
+}
+.color15 {
+    color:rgb(59, 8, 8);
+}
+.bcolor15 {
+    background-color: rgb(59, 8, 8);
+}
